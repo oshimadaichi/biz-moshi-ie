@@ -1,0 +1,414 @@
+@charset "UTF-8";
+
+/*---------------------------------------------------------------
+固定フッターメニュー
+---------------------------------------------------------------*/
+.controllerFooter__item {
+	padding: 12px 0;
+	color: #fff !important;
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+.controllerFooter__item.link_about {
+	background-color: #6c6c6c;
+}
+
+.controllerFooter__item.link_event {
+	background-color: #d4a74b;
+}
+
+.controllerFooter__item.link_contact {
+	background-color: #d65354 !important;
+	;
+}
+
+
+/*---------------------------------------------------------------
+見出し
+---------------------------------------------------------------*/
+.postContents .content .hdType01 {
+	background: #ffe0e3;
+	font-weight: bold;
+	font-size: 1.7rem !important;
+	border: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+/*---------------------------------------------------------------
+リンク
+---------------------------------------------------------------*/
+.postContents .content a.link_map {
+	color: #e15b5b;
+}
+
+.postContents .content a {
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+}
+
+.postContents .content a:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/*---------------------------------------------------------------
+ハウスデータ
+---------------------------------------------------------------*/
+.postContents .content .myBlockHouseData {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 auto 40px auto;
+}
+
+.postContents .content .myBlockHouseData div {
+	margin: 0;
+}
+
+.postContents .content .myBlockHouseData .data {
+	-webkit-order: 2;
+	order: 2;
+	margin-top: 40px;
+}
+
+.postContents .content .myBlockHouseData .figure {
+	-webkit-order: 1;
+	order: 1;
+}
+
+.postContents .content .myBlockHouseData h2 {
+	font-family: "Fjalla One";
+	font-size: 21px;
+	display: inline-block;
+	text-align: left;
+	margin: 0;
+	padding: 0 !important;
+	background: transparent !important;
+	border: none !important;
+}
+
+.postContents .content .myBlockHouseData h2 .sub {
+	display: block;
+	font-size: 0.5em;
+	font-weight: normal;
+}
+
+.postContents .content .myBlockHouseData .data-hd-container {
+	text-align: right;
+	border-right: solid 1px #000;
+}
+
+.postContents .content .myBlockHouseData .flex-item {
+	padding: 0;
+}
+
+.postContents .content .myBlockHouseData .data-hd-container {
+	padding-right: 2vw;
+}
+
+.postContents .content .myBlockHouseData .data-bd-container {
+	padding-left: 2vw;
+	font-size: 0.8em;
+}
+
+.postContents .content .myBlockHouseData table.house_data {
+	font-size: 1.0em;
+	border: none;
+}
+
+
+.postContents .content .myBlockHouseData table.house_data th,
+.postContents .content .myBlockHouseData table.house_data td {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+.postContents .content .myBlockHouseData table.house_data th {
+	width: 5em;
+}
+
+
+.postContents .content .myBlockHouseData .flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	width: 100%;
+}
+
+.postContents .content .myBlockHouseData .flex-item:nth-child(1) {
+	-webkit-flex: 0 1 30%;
+	flex: 0 1 25%;
+}
+
+.postContents .content .myBlockHouseData .flex-item:nth-child(2) {
+	-webkit-flex: 0 1 70%;
+	flex: 0 1 75%;
+}
+
+.postContents .content .myBlockHouseData .data-bd-container {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.postContents .content .myBlockHouseData .data-inner {
+	width: 50%;
+}
+
+.postContents .content .myBlockHouseData .figure {
+	text-align: center;
+}
+
+.postContents .content .myBlockHouseData .figure img {
+	width: auto;
+	height: 380px;
+}
+
+
+
+/*---------------------------------------------------------------
+会社紹介
+---------------------------------------------------------------*/
+.postContents .content .myBlockCompany {
+	text-align: center;
+}
+
+.postContents .content .myBlockCompany h3 {
+	border-bottom: none;
+	font-size: 16px;
+	margin: 0 0 25px 0;
+}
+
+.postContents .content .myBlockCompany .logo {
+	margin-bottom: 5px;
+}
+
+.postContents .content .myBlockCompany .logo img {
+	max-width: 300px;
+}
+
+.postContents .content .myBlockCompany table.company_data {
+	margin: 0 auto 10px auto;
+	font-size: 0.9em;
+	width: 65%;
+	max-width: 400px;
+	border: none;
+}
+
+.postContents .content .myBlockCompany table.company_data tr {
+	border-bottom: solid 1px #ccc;
+}
+
+.postContents .content .myBlockCompany table.company_data th,
+.postContents .content .myBlockCompany table.company_data td {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+}
+
+.postContents .content .myBlockCompany table.company_data th {
+	padding-right: 20px;
+	font-weight: normal;
+}
+
+.postContents .content .myBlockCompany table.company_data .link_map {
+	margin-left: 0.3em;
+}
+
+.postContents .content .myBlockCompany .link_list {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.postContents .content .myBlockCompany .link_list li {
+	display: inline-block;
+	width: 30px;
+	margin: 0 16px;
+	padding: 0;
+}
+
+.postContents .content .myBlockCompany .link_list li:before {
+	content: '';
+}
+
+.postContents .content .myBlockCompany .link_list img {
+	width: 100%;
+	height: auto;
+}
+
+.postContents .content .myBlockCompany .contact_area {
+	background: #ffdfe3;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0 0 30px 0;
+}
+
+.postContents .content .myBlockCompany .contact_area p {
+	padding: 20px 0 10px 0;
+	font-size: 18px;
+	margin: 0 auto;
+	line-height: 1.3;
+}
+
+.postContents .content .myBlockCompany .btn {
+	width: 80%;
+	background: #ccc;
+	margin: 0px auto 20px auto;
+	font-size: 18px;
+	max-width: 400px;
+}
+
+.postContents .content .myBlockCompany .btn a {
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+}
+
+.postContents .content .myBlockCompany .btn.link_company a {
+	background-color: #6c6c6c;
+}
+
+.postContents .content .myBlockCompany .btn.link_event a {
+	background-color: #d4a74b;
+}
+
+.postContents .content .myBlockCompany .btn.link_contact a {
+	background-color: #d65354;
+}
+
+.postContents .content .myBlockCompany .pamphlet {
+	max-width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+
+	/*---------------------------------------------------------------
+	ハウスデータ
+	---------------------------------------------------------------*/
+	.postContents .content .myBlockHouseData {
+		width: 95%;
+	}
+
+	.postContents .content .myBlockHouseData .data {
+		-webkit-order: 1;
+		order: 1;
+		margin-bottom: 20px;
+	}
+
+	.postContents .content .myBlockHouseData .figure {
+		-webkit-order: 2;
+		order: 2;
+	}
+
+	.postContents .content .myBlockHouseData .figure img {
+		width: auto;
+		height: 300px;
+	}
+
+	.postContents .content .myBlockHouseData .flex-container {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.postContents .content .myBlockHouseData .flex-item {
+		-webkit-flex: 0 1 100% !important;
+		flex: 0 1 100% !important;
+	}
+
+	.postContents .content .myBlockHouseData .data-hd-container {
+		text-align: center;
+	}
+
+	.postContents .content .myBlockHouseData .data-hd-container {
+		text-align: center;
+		border-right: none;
+		border-bottom: solid 1px #000;
+		padding: 10px 0;
+		margin-bottom: 20px;
+	}
+
+	.postContents .content .myBlockHouseData h2 {
+		font-family: "Fjalla One";
+		font-size: 21px;
+		display: inline-block;
+		text-align: center;
+		margin: 0;
+		padding: 0 !important;
+		background: transparent !important;
+		border: none !important;
+	}
+
+	.postContents .content .myBlockHouseData h2 .sub {
+		display: block;
+		font-size: 0.5em;
+		font-weight: normal;
+	}
+
+	.postContents .content .myBlockHouseData .data-bd-container {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.postContents .content .myBlockHouseData .data-inner {
+		width: 100%;
+	}
+
+	.postContents .content .myBlockHouseData .data-bd-container {
+		padding: 0px;
+		margin: 0 auto;
+		width: 80%;
+
+	}
+
+	.postContents .content .myBlockHouseData table.house_data {
+		font-size: 1.2em;
+		width: 300px;
+		margin: 0 auto;
+	}
+
+
+	.postContents .content .myBlockHouseData table.house_data th {
+		width: 8em;
+	}
+
+
+
+
+	/*---------------------------------------------------------------
+		会社紹介
+	---------------------------------------------------------------*/
+	.postContents .content .myBlockCompany table.company_data {
+		width: 90%;
+	}
+
+	.postContents .content .myBlockCompany .contact_area {
+		width: 90%;
+	}
+
+	.postContents .content .myBlockCompany .contact_area p {
+		font-size: 0.9em;
+	}
+
+	.postContents .content .myBlockCompany .btn {
+		width: 330px;
+		max-width: 90%;
+	}
+
+	.postContents .content .myBlockCompany .btn a {
+		padding: 10px 20px;
+	}
+}

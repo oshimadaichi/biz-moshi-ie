@@ -1,0 +1,24 @@
+
+	{
+		"name": "もしも家を建てたなら（もし家）",
+		"short_name": "もしも家を建てたなら（もし家）",
+		"description": "「もしも家を建てたなら（もし家）」は、岡山県の工務店で建てた実際のお家にお邪魔し、家を建てた人の&quot;想い&quot;をリアルにお届けするメディアです。",
+		"start_url": "/",
+		"display": "standalone",
+		"theme_color": "#191919",
+		"background_color": "#ffffff",
+		"icons": [{
+			"src": "http://biz-moshi-ie.local/wp-content/themes/the-thor/img/pwa-72.png",
+			"sizes": "72x72",
+			"type": "image/png"
+		}, {
+			"src": "http://biz-moshi-ie.local/wp-content/themes/the-thor/img/pwa-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}, {
+			"src": "http://biz-moshi-ie.local/wp-content/themes/the-thor/img/pwa-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}]
+	}
+	

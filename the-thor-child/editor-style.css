@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.editor-styles-wrapper {
+  font-family: Lato, "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important; }
+  .editor-styles-wrapper .editor-post-title__block .editor-post-title__input {
+    font-family: Lato, "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important; }
+  .editor-styles-wrapper h2 {
+    padding: 8px 26px !important;
+    background-color: #d7d7d7; }
+    @media screen and (min-width: 768px) {
+      .editor-styles-wrapper h2 {
+        font-size: 2.2rem !important; } }
+    @media screen and (max-width: 600px) {
+      .editor-styles-wrapper h2 {
+        padding: 8px 18px !important; } }
+  .editor-styles-wrapper h3 {
+    background-color: #7e7e7e;
+    color: #f2f2f2;
+    padding: 8px 26px !important; }
+    @media screen and (min-width: 768px) {
+      .editor-styles-wrapper h3 {
+        font-size: 1.8rem !important; } }
+    @media screen and (max-width: 600px) {
+      .editor-styles-wrapper h3 {
+        padding: 8px 18px !important; } }
+  @media screen and (min-width: 768px) {
+    .editor-styles-wrapper h4 {
+      font-size: 1.7rem !important; } }
+  .editor-styles-wrapper strong {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #FDCFF5));
+    background: -webkit-linear-gradient(transparent 60%, #FDCFF5 60%);
+    background: -o-linear-gradient(transparent 60%, #FDCFF5 60%);
+    background: linear-gradient(transparent 60%, #FDCFF5 60%); }
+  .editor-styles-wrapper .myBlockInterview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 35px; }
+    .editor-styles-wrapper .myBlockInterview .side {
+      width: 84px;
+      text-align: center; }
+      @media screen and (max-width: 600px) {
+        .editor-styles-wrapper .myBlockInterview .side {
+          width: 20%; } }
+      .editor-styles-wrapper .myBlockInterview .side img {
+        max-width: 100%;
+        height: auto; }
+    .editor-styles-wrapper .myBlockInterview .detail {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin-top: 0; }
+    .editor-styles-wrapper .myBlockInterview .name {
+      margin-top: 6px; }
+      @media screen and (min-width: 768px) {
+        .editor-styles-wrapper .myBlockInterview .name {
+          font-size: 1.4rem; } }
+    .editor-styles-wrapper .myBlockInterview .fukidashi {
+      padding: 20px 30px;
+      border: solid 1px #568587;
+      position: relative; }
+      @media screen and (max-width: 600px) {
+        .editor-styles-wrapper .myBlockInterview .fukidashi {
+          padding: 10px 15px; } }
+      @media screen and (min-width: 768px) {
+        .editor-styles-wrapper .myBlockInterview .fukidashi {
+          font-size: 1.4rem; } }
+      .editor-styles-wrapper .myBlockInterview .fukidashi::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        border: 7px solid transparent; }
+      .editor-styles-wrapper .myBlockInterview .fukidashi::before {
+        content: "";
+        position: absolute;
+        top: 11px;
+        border: 6px solid transparent;
+        z-index: 10; }
+    .editor-styles-wrapper .myBlockInterview_right .detail {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+      padding-right: 40px; }
+      @media screen and (max-width: 600px) {
+        .editor-styles-wrapper .myBlockInterview_right .detail {
+          padding-right: 25px; } }
+    .editor-styles-wrapper .myBlockInterview_right .fukidashi::after {
+      right: -24px;
+      border-left: 17px solid #568587; }
+    .editor-styles-wrapper .myBlockInterview_right .fukidashi::before {
+      right: -22px;
+      border-left: 19px solid #fff; }
+    .editor-styles-wrapper .myBlockInterview_right .side {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2; }
+    .editor-styles-wrapper .myBlockInterview_left .detail {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      padding-left: 40px; }
+      @media screen and (max-width: 600px) {
+        .editor-styles-wrapper .myBlockInterview_left .detail {
+          padding-left: 25px; } }
+    .editor-styles-wrapper .myBlockInterview_left .fukidashi::after {
+      left: -24px;
+      border-right: 17px solid #568587; }
+    .editor-styles-wrapper .myBlockInterview_left .fukidashi::before {
+      left: -22px;
+      border-right: 19px solid #fff; }
+    .editor-styles-wrapper .myBlockInterview_left .side {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1; }
