@@ -483,22 +483,35 @@
 /*---------------------------------------------------------------
 top main スライダー
 ---------------------------------------------------------------*/
-/* PCは一先ず非表示で対応 */
-@media only screen and (min-width: 590px) {
-	.swiper-slider { 
-		height: unset;
-	}
+.swiper-slider,
+.swiper-slider .swiper-wrapper,
+.swiper-slider .swiper-slide {
+	height: auto !important;
 }
-@media only screen and (max-width: 590px) {
-  .swiper-slider {
-	  height: auto !important;
-  }
+.swiper-slider .swiper-slide,
+.swiper-slider .swiper-slide > a {
+	display: block;
 }
+
 .swiper-slider .swiper-content {
 	padding: 0;
 }
 .swiper-slider .swiper-bg {
-	position: unset;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto !important;
+	object-fit: unset;
+}
+@media only screen and (min-width: 768px) {
+	.swiper-slider .swiper-slide > a,
+	.swiper-slider .swiper-bg {
+		width: min(900px, 100%);
+		height: auto !important;
+		margin-left: auto;
+		margin-right: auto;
+		object-fit: contain;
+	}
 }
 
 /*---------------------------------------------------------------
